@@ -6,7 +6,14 @@ $(".saveBtn").on("click", function(){
 
     localStorage.setItem(diaryEntryTime, diaryEntry)
 })
-// we need to use moment.js to display the current time on the screen
+
+// we need to use moment.js to display the current time on the screen - when page loads - get the html with an id of currentDay and set its value as the current time. Moment can be used to get the time. 
+
+
+//we need to go into the html and loop over the time-blocks and use moment to get the current hour, if this is block id is less than current hour then apply 'past' class
+//if block hour and current hour are the same then apply present class
+//if block hour is greater than current then apply the future class
+
 
 //on page load we also want to check local storage for any previously saved values
 var eightActivity = localStorage.getItem('8');
