@@ -1,5 +1,14 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
+## Description
+
+Application built to plan your working day. This application was built using JavaScript, HTML and CSS. 
+
+## Deployment
+
+You can find the deployed website at https://bipp2009.github.io/Wk-5-Day-Planner/ 
+
+
 ## Your Task
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
