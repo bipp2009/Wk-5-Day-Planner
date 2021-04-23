@@ -12,7 +12,7 @@ function displayTime() {
   $(".time-block").each(function () {
     var activityHour = $(this).attr("id");
     var currentHour = moment().hours();
-    
+
     if (activityHour < currentHour) {
       $(this).addClass("past");
     } else if (activityHour === currentHour) {
